@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- input types 
+     
+    text, number, email, pasword, date, time, color, range, file, url, month, year, checkbox, radio-->
+
+    <form action="">
+      <label for="username">username:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter user name"
+        required
+      />
+      <br />
+      <label for="password">password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter password "
+      />
+      <br />
+
+      Gender: <br />
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="Female" />
+      <label for="Female">Female</label>
+      <input type="radio" name="gender" id="others" />
+      <label for="others">others</label> <br />
+
+      <label for="course">course</label>
+      <select name="course" id="course">
+        <option value="" disabled selected>Select your course</option>
+        <option value="">Web Desing</option>
+        <option value="">UIUX</option>
+        <option value="">PHP</option>
+        <option value="">Python</option>
+        <option value="" >Java</option>
+      </select>
+      <button type="submit">login</button>
+    </form>
+  </body>
+</html>

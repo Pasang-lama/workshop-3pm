@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User login</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+   
+      form {
+        width: 40%;
+        background-color: rgb(222, 222, 222);
+        margin: 0px auto;
+        padding: 50px;
+      }
+      form label{
+        display: block;
+        color: rgb(40, 40, 40);
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      form input{
+        width: 100%;
+        padding: 10px;
+        border:1px solid rgb(177, 177, 177);
+        margin-bottom: 20px;
+      }
+      form button{
+        background-color: green;
+        width: 100%;
+        padding: 10px;
+        color: white;
+        border: 1px solid green;
+      }
+      form h1{
+        margin-bottom: 20px;
+      }
+      form a{
+        text-decoration: none;
+        color: blue;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+      }
+      form a:hover{
+        text-decoration: underline;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <h1>User Login form</h1>
+      <label for="email">Email Address</label>
+      <input
+        type="eamil"
+        id="email"
+        name="email"
+        placeholder="Enter email address"
+      />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter Password"
+      />
+      <button type="submit">Login</button>
+      <a href="">Forgot pasword?</a>
+    </form>
+  </body>
+</html>
